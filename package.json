@@ -1,0 +1,19 @@
+{
+  "name": "line-bot-sample",
+  "version": "1.0.0",
+  "description": "This is a sample bot for LINE Messaging API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "line",
+    "bot"
+  ],
+  "author": "cp-20",
+  "license": "MIT",
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.0",
+    "express": "^4.17.3"
+  }
+}
