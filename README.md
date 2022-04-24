@@ -1,21 +1,17 @@
-# Line Bot Sample
+# Line Botサンプル
 
-This repository is the sample of LINE bot.
+LINE Botのサンプルだよ！
 
-## Usage
+下の3つの値を環境変数に入れるのを忘れないでね
+- `LINE_CHANNEL_ID`
+- `LINE_CHANNEL_SECRET`
+- `LINE_ACCESS_TOKEN`
 
-You have to install Node.js and Git beforehand.
 
-clone this repository
-
-```
-git clone https://github.com/cp-20/line-bot-sample
-```
-
-install required packages
+このコマンドでbotを起動できるよ！
 
 ```
-npm i
+node index.js
 ```
 
-deploy to somewhere and run
+動いたらbotに対して「こんにちは」って送ってみよう！「こんにちは！」って返ってきたら成功だ。自分の好きなように改造して遊ぼう！
